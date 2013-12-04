@@ -4,3 +4,39 @@ Creation-Date: 2013-12-04T02:43:17-05:00
 
 ====== Basic Features ======
 
+===== Notebooks =====
+
+Notebooks in Zim are just folders that contain Zim pages, attachments, and folders with more Zim pages.
+
+TODO: Notebooks
+TODO: How to create a notebook
+
+===== Page list =====
+
+By default, Zim shows an Index of all the pages in your notebook in a sidebar on the left side of the window.
+
+To create a new page, you can right-click anywhere in the Index and select "New Page" (for a new top level page) or "New Sub Page" (to create a new child of the selected node). You can also get these commands from the File menu or keyboard shortcuts found in the File menu.
+
+TIP: You can navigate forward and backward in the index by typing ALT+PageUp and ALT+PageDown.
+
+===== Live modeless editing of pages =====
+
+File format — it's text!
+
+===== Hyperlinks =====
+
+Fully explain link format?
+
+===== Attachments =====
+
+Watch out for orphaned attachments
+(Create script to find orphaned attachments?)
+If you turn on Attachment Browser plugin you might notice orphans.
+
+===== Find and Replace =====
+
+Regex
+
+===== Search =====
+
+===== Pathbar — recent, namespace =====
