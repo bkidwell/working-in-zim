@@ -2,10 +2,10 @@ Content-Type: text/x-zim-wiki
 Wiki-Format: zim 0.4
 Creation-Date: 2013-12-04T00:52:59-05:00
 
-====== 1 Introduction ======
+====== Introduction ======
 
-===== 1.1 Privacy Matters =====
+===== Privacy Matters =====
 
-===== 1.2 Conventions Used in this Guide =====
+===== Conventions Used in this Guide =====
 
 Zim tries to be a platform-agnostic application, compatible with any modern desktop operating system, but when you do complicated things with Zim, sometimes you are using it in concert with //other// applications and systems. For the sake of simplicity, I will mostly assume you are using an Ubuntu-based operating system such as Ubuntu, Kubuntu, or Linux Mint. Where I can comment on differences with other OSes, I will.
