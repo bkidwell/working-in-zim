@@ -8,7 +8,9 @@ Creation-Date: 2013-12-04T00:53:31-05:00
 
 Install the package called ''zim'' using your desktop's package manager. Then you should see a new entry "Zim Desktop Wiki" in your desktop's application menu under "Accessories" or "Utilities" or some other name, depending on your desktop. You can also launch Zim from your desktop's Run command by executing the command
 
-	''zim''
+'''
+zim
+'''
 
 If your operating system doesn't have a built-in package for Zim, you can get the source code as a tarball from the [[http://zim-wiki.org/downloads.html|Download]] page on Zim's web site.
 
@@ -48,9 +50,3 @@ Zim is available as a standard installer package and as a portable application (
 ===== 2.3 OS X =====
 
 The official [[http://zim-wiki.org/install.html|installation instructions]] offer some tips on installing Zim in OS X. I have not had a chance to try this.
-
-'''
-one
-two
-three
-'''
