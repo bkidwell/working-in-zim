@@ -1,0 +1,71 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-11-29T16:50:48-05:00
+
+====== Nginx ======
+Created Friday 29 November 2013
+
+===== DokuWiki =====
+
+'''
+rewrite ^/dokuwiki$ /dokuwiki/ permanent;
+location /dokuwiki/ {
+  index doku.php index.php;
+  alias /home/apps/WebApps/dokuwiki/;
+  client_max_body_size 80M;
+  try_files $uri $uri/ @dokuwiki;
+}
+location ~ ^/dokuwiki/.*\.php$ {
+  root /home/apps/WebApps;
+  include fastcgi_params;
+  fastcgi_pass 127.0.0.1:9000;
+  fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; 
+}
+location @dokuwiki {
+   rewrite ^/dokuwiki/_media/(.*) /dokuwiki/lib/exe/fetch.php?media=$1 last;
+   rewrite ^/dokuwiki/_detail/(.*) /dokuwiki/lib/exe/detail.php?media=$1 last;
+   rewrite ^/dokuwiki/_export/([^/]+)/(.*) /dokuwiki/doku.php?do=export_$1&id=$2 last;
+   rewrite ^/dokuwiki/(.*) /dokuwiki/doku.php?id=$1 last;
+}
+location ~ ^/dokuwiki/(data|conf|bin|inc)/ { deny all; }
+'''
+
+
+===== PhpMyAdmin =====
+
+'''
+rewrite ^/phpmyadmin$ /phpmyadmin/ permanent;
+location /phpmyadmin/ {
+  index index.php;
+  alias /home/apps/WebApps/phpmyadmin/;
+  client_max_body_size 80M;
+}
+location ~ ^/phpmyadmin/.*\.php$ {
+  root /home/apps/WebApps;
+  include fastcgi_params;
+  fastcgi_pass 127.0.0.1:9000;
+  fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; 
+}
+'''
+
+
+===== WordPress =====
+
+'''
+rewrite ^/wordpress$ /wordpress/ permanent;
+rewrite ^/wordpress/wp-admin$ /wordpress/wp-admin/ permanent;
+location /wordpress/ {
+  index index.php index.htm index.html redirect.php;
+  root /home/apps/WebApps;
+  # alias /home/apps/WebApps/wordpress/;
+  client_max_body_size 80M;
+  try_files $uri $uri/ /wordpress/index.php?$args;
+}
+location ~ ^/wordpress/.*\.php$ {
+  # root /home/apps/WebApps;
+  fastcgi_split_path_info ^(/wordpress)(/.*)$;
+  include fastcgi_params;
+  fastcgi_pass 127.0.0.1:9000;
+  fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; 
+}
+'''

@@ -1,0 +1,12 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-12-03T23:39:46-05:00
+
+====== Recording ======
+Created Tuesday 03 December 2013
+
+Use gtk-recordmydesktop.
+~~Use http://seminar.io/projects/screenkey/ to display keys.~~ (doesn't work)
+Use keymon.
+
+''key-mon --no-press-fadeout=0.1 --visible_click --smaller''

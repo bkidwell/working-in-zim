@@ -1,0 +1,19 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-11-30T00:03:40-05:00
+
+====== Notes ======
+Created Saturday 30 November 2013
+
+* dropbox alt
+	* ownCloud
+* todo list example on screen
+* ~~diagnose shared notebook index problem~~ — Appears fixed!
+* zim server — windows and linux
+
+Sparkleshare
+* looks okay; git history might pile up.
+* still kinda betaish
+
+OwnCloud
+* get it bloody working with nginx, or switch to Apache

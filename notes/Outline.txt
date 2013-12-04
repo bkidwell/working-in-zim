@@ -1,0 +1,100 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-11-28T21:13:06-05:00
+
+====== Outline ======
+Created Thursday 28 November 2013
+
+1. Introduction
+	a. Who am I?
+	b. What's on my computer?
+	c. What are we talking about?
+	d. Privacy
+		1. EverNote example
+		2. Who is allowed to access my data?
+		3. Who might gain access to my data?
+		4. Can I delete my data? Is my data really gone if I've deleted it?
+2. Installing Zim
+	a. Linux
+	b. Windows
+	c. OS X — see Zim web site
+3. Basic features
+	a. Notebooks — any folder can be a notebook
+	b. Page list
+	c. Live modeless editing of pages
+		1. File format — it's text!
+	d. Hyperlinks
+		1. Fully explain link format?
+	e. Attachments
+		1. Watch out for orphaned attachments
+		2. (Create script to find orphaned attachments?)
+		3. If you turn on Attachment Browser plugin you might notice orphans.
+	f. Find and Replace
+		1. Regex
+	g. Search
+	h. Pathbar — recent, namespace
+4. Organizing
+	a. Pages — Calendar, Projects, etc.
+	b. Tags
+	c. Checkboxes and todo items
+5. Getting work done
+	a. Journal
+	b. Project Notes folder
+		1. Meeting notes
+		2. Todo
+		3. Writing a paper
+			a. TOC plugin, Insert (x), Attachment Browser
+	c. Archive folder
+	d. Reference folder
+	e. Publishing
+	f. Making a web site
+	g. Getting Things Done — See manual
+6. Syncing
+	a. ownCloud
+7. Backup!
+8. Web server
+	a. Running from crontab
+9. Exporting
+	a. HTML, LaTeX, s3
+	b. pandoc awesomeness!
+	c. Print to Browser
+10. Misc
+	a. Templates
+	b. External wikis (special hyperlinks)
+	c. Tables
+	d. Graphviz, etc.
+	e. Command line scripting
+		1. export
+		2. search
+	f. Keyboard shortcuts
+	g. Import?
+	h. Custom Tools
+	i. Other plugins
+		1. Insert Diagram (graphviz)
+		2. Distraction Free Editing
+		3. Insert Ditaa
+			a. Use JAVE
+		4. Insert Equation
+		5. Insert GNU R Plot
+		6. Insert Gnuplot
+		7. Insert Score (Lilypond)
+		8. Insert Screenshot
+		9. Insert Symbol (single character)
+		10. Line Sorter
+		11. Quick Note
+		12. Spell Checker
+		13. Table of Contents
+		14. Tray Icon
+11. Where to get support for Zim
+
+Topics:
+* Evenote doesn't support arbitrary hierarchy — has stack → notebook → tag
+* Syncing with ownCloud
+	* automatic versioning ( [[Notes:owncloud versions|sensible rules for not saving too much history]] )
+* Zim server
+* Tasks
+* Tags
+* Diary
+
+Formatting:
+* Put "tip!" icon next to value added stuff that's not in the manual?

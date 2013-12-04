@@ -1,0 +1,13 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-11-29T17:21:06-05:00
+
+====== Apache ======
+Created Friday 29 November 2013
+
+enable multiverse repositories
+
+http://www.howtoforge.com/using-php5-fpm-with-apache2-on-ubuntu-12.04-lts
+https://help.ubuntu.com/community/EnablingUseOfApacheHtaccessFiles
+
+enable mod **rewrite**.
