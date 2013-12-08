@@ -1,6 +1,4 @@
-Content-Type: text/x-zim-wiki
-Wiki-Format: zim 0.4
-Creation-Date: 2013-12-04T00:51:47-05:00
+% Getting Work Done in Zim
 
 Brendan Kidwell
 4 Dec 2013
