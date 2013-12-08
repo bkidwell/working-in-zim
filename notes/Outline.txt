@@ -85,7 +85,8 @@ Created Thursday 28 November 2013
 		12. Spell Checker
 		13. Table of Contents
 		14. Tray Icon
-11. Where to get support for Zim
+	j. Open read-only new window
+12. Where to get support for Zim
 
 Topics:
 * Evenote doesn't support arbitrary hierarchy — has stack → notebook → tag

@@ -17,3 +17,13 @@ Sparkleshare
 
 OwnCloud
 * get it bloody working with nginx, or switch to Apache
+
+Presentation
+* Custom Tools for export-to-HTML, export-to-S5
+	* use Python — platform independent
+	* make .sh and .cmd versions for Linux and Windows if needed
+* HTML export — escape to raw HTML (using "." line prefix?)
+* pictures:
+	* "good for making slides" -> recursion
+	* try to find icons and stuff that goes with slide content
+

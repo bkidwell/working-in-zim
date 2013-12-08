@@ -1,0 +1,18 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2013-12-07T20:37:28-05:00
+
+====== Link formats ======
+Created Saturday 07 December 2013
+
+Or you can type an external link in one of the following formats:
+* ./file, ../path/file, etc. — Any file stored already stored somewhere else in this Notebook. The initial "." select the Attachments/Sub Pages folder for this Page (i.e. the folder in the Notebook with the same name as the Page you are on). ".." means to start at the folder that contains the Page itself and all the Page's siblings
+* :Page:Sub Page — A page in the current Notebook, starting the reference from the top level of navigation
+* Page — A sibling of the current Page, or if not found, the //parent// of the current Page or one of its siblings, and so on up the navigation tree
+* Page:Sub Page — A Sub Page of certain Page referenced like the relative Link style given in the previous bullet point
+* +Page — A Sub Page of the current page
+* http://host/path/file, ftp://host/path/file, etc. — standard Internet hyperlinks
+* service?object — Open a browser and lookup "object" in "service" using Zim's "Interwiki" list
+* smb://host/path/file, file://host/path/file, \\host\path\file — Windows/Samba file shares on the local network
+* file:///path/file — A file on this computer
+* ~/path/file — A file under your //home folder// on this computer (the folder where your documents and settings are stored)
