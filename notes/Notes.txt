@@ -30,3 +30,4 @@ Presentation
 	* LyX
 	* LibreOffice
 	* BlueGriffon HTML editor
+* $PATH ?

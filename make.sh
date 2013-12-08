@@ -3,8 +3,10 @@
 cd `dirname $0`
 mkdir -p build/html
 mkdir -p build/html/img
+mkdir -p build/html/icon
 cp src/styles.css build/html/styles.css
-rsync --archive --delete src_md/img/ build/html/img
+rsync --archive --delete src/img/ build/html/img
+rsync --archive --delete src/icon/ build/html/icon
 
 cd build/html
 pandoc \

@@ -10,7 +10,19 @@ zim
 
 If your operating system doesn't have a built-in package for Zim, you can get the source code as a tarball from the [Download](http://zim-wiki.org/downloads.html) page on Zim's web site.
 
+### Installing the Latest Version in Ubuntu
+
+Zim is under active development and your operating system's default repositories may include an older version of Zim. If you are using an Ubuntu-derived operating system, you can run the following commands in a Terminal to install the latest package directly from the Zim project:
+
+~~~
+sudo add-apt-repository ppa:jaap.karssenberg/zim
+sudo apt-get update
+sudo apt-get install zim
+~~~
+
 ### Installing from Source
+
+If you do not have access to the latest version of Zim within your operating system, you can install it from the source code tarball.
 
 See also the official [installation instructions](http://zim-wiki.org/install.html).
 

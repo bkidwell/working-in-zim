@@ -36,7 +36,7 @@ In the page content frame of the Zim interface, you can use the usual editing co
 
 TODO: Move keyboard shortcuts
 
-TIP: Here are some keyboard shortcuts for moving around in the text:
+<div class="tip">Here are some keyboard shortcuts for moving around in the text:</div>
 
 | Key | Action |
 |--+--|
@@ -51,9 +51,22 @@ TIP: Here are some keyboard shortcuts for moving around in the text:
 | ALT+PageUp, ALT+PageDown | Previous, next page in page index |
 | Enter | Insert a newline (twice for a paragraph) if cursor is not inside a hyperlink |
 | SHIFT+Enter | Always insert a newline (twice for a paragraph) |
-| CTRL+I, CTRL+B, CTRL+U, CTRL+K | *Emphasis*, **strong emphasis**, <u>highlight</u>, <s>strikethrough</s>
+| CTRL+I, CTRL+B, CTRL+U, CTRL+K | *Italic*, **bold**, <u>highlight</u>, <s>strikethrough</s>
 | CTRL+L | Insert hyperlink |
 | CTRL+J | Jump to Page by name |
+
+## Text Formatting
+
+Zim supports supports some basic text formatting:
+
+Character styles
+  ~ CTRL+I, CTRL+B, CTRL+U, and CTRL+K mark text as italic, bold, highlighted, and strikethrough respectively.
+Bulleted lists
+  ~ Start a bulleted list with an asterisk followed by a space ("\* ") and the asterisk will become a bullet. Start a new item in the same list by hitting ENTER. Finish the list by hitting ENTER twice.
+Numbered lists
+  ~ Start a numbered list with "1" followed by a space ("1 "). Start a new item in the same list by hitting ENTER. Finish the list by hitting ENTER twice. 
+
+Bulleted and numbered lists can have sub-lists inside them. Just use Tab and SHIFT+Tab to indent and unindent list items.
 
 ## Links
 
@@ -67,16 +80,14 @@ The "Browse" button in the "Insert Link" dialog box allows you to browse the fil
 
 Zim has a number of differnet formats for Links listed in the Zim Manual for various kinds of relative and absolute links within the current Notebook, and for other resources that are external to the Notebook, but it's not necessary to memorize these rules up front when you're learning Zim. Use drag-and-drop for most hyperlinks until you find yourself making a lot of the same *kind* of Link; then if you want to learn to type the links quicker, right-click on an existing Link and Edit Properties to see what it looks like. Here are the simplest ways for making most kinds of Links:
 
-**A Page in the current notebook:**
-Without clicking on any Page names in Zim's Index pane (which would navigate to that Page), expand the tree until you find the target, and then click and drag the target Page into the text of the Page where you want to make the Link. Right-click on the new Link and Edit Properties as needed if you want to change the title.
+A Page in the current notebook
+  ~ Without clicking on any Page names in Zim's Index pane (which would navigate to that Page), expand the tree until you find the target, and then click and drag the target Page into the text of the Page where you want to make the Link. Right-click on the new Link and Edit Properties as needed if you want to change the title.
+A local file outside the Notebook or a Windows/Samba shared file
+  ~ Find the file in your desktop's file manager and drag it to into the text of the Zim Page where you want to Link to it.
+Internet/local network resource
+  ~ Paste the URL directly into the page. Or type a link title and select it, then hit CTRL+L and paste the URL into the Link To field.
 
-**A local file outside the Notebook or a Windows/Samba shared file:**
-Find the file in your desktop's file manager and drag it to into the text of the Zim Page where you want to Link to it.
-
-**Internet/local network resource:**
-Paste the URL directly into the page. Or type a link title and select it, then hit CTRL+L and paste the URL into the Link To field.
-
-TIP: Astute readers might notice that links to local files stored outside the Notebook **might not be portable** when you move or share your Notebook among more than one computer or user. A "Link" in Zim does not copy or cache anything; it is only a *reference* to a target.
+<div class="tip">Astute readers might notice that links to local files stored outside the Notebook **might not be portable** when you move or share your Notebook among more than one computer or user. A "Link" in Zim does not copy or cache anything; it is only a *reference* to a target.</div>
 
 TODO: See sectionon Interwiki links
 
@@ -86,7 +97,7 @@ Whereas Links only make a reference to another Page in the Notebook or some othe
 
 As with Sub Pages, Attachments are stored in a folder in the Notebook with the same name as the parent Page of the Attachment.
 
-TIP: Watch out for orphaned attachments. Zim does not automatically clean up attached files if you delete the last Link pointing to the Attachment. The easiest way to check for orphans on Page is to enable the Attachment Browser plugin; it creates a tab in the Index page that shows all attachments of the current Page, whether they have a link pointing to them or not.
+<div class="tip">Watch out for orphaned attachments. Zim does not automatically clean up attached files if you delete the last Link pointing to the Attachment. The easiest way to check for orphans on Page is to enable the Attachment Browser plugin; it creates a tab in the Index page that shows all attachments of the current Page, whether they have a link pointing to them or not.</div>
 
 ## Find and Replace
 

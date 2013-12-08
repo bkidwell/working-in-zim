@@ -1,9 +1,53 @@
+body {
+	margin: 1em;
+}
+
 h1, h2, h3, h4 { font-family: sans-serif; }
 h1 a, h2 a, h3 a, h4 a { text-decoration: none; }
-h1 { font-size: 1.5em; font-weight: normal; padding-top: .5em; border-bottom: 1px solid silver; }
+h1 {
+	font-size: 1.5em; font-weight: normal; margin-top: 2em;
+	border-bottom: 1px solid silver;
+}
 h2 { font-size: 1.3em; font-weight: normal; }
 h3 { font-size: 1.25em; font-weight: normal; font-style: italic; }
 h4 { font-size: 1.15em; font-weight: bold; }
 pre { padding-left: 1.5em; }
 u { text-decoration: none; background-color: yellow; }
 th + th, td + td { padding-left: 1em; }
+
+p, td, dl, ul, div.tip { max-width: 50em; }
+
+div.img-shadow img {
+	box-shadow: 0 0 2px 2px #ccc;
+}
+
+div.tip, div.warning {
+	border-radius: 1em;
+	padding: 1em 1em 1em 3em;
+	margin: 1em 0;
+	max-width: 48em;
+	background-repeat: no-repeat;
+	background-position: .5em center;
+}
+div.tip {
+	background-color: #c5edd3;
+	background-image: url("icon/tango-dialog-information.png");
+}
+div.tip:before {
+	content: "Tip:";
+	font-style: italic;
+}
+div.warning {
+	background-color: #edc5c5;
+	background-image: url("icon/tango-dialog-warning.png");
+}
+div.warning:before {
+	content: "Warning:";
+	font-style: italic;
+}
+
+@media print {
+	img {
+		max-width: 100%;
+	}
+}
