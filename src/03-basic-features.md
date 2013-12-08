@@ -34,26 +34,7 @@ One of the best features of Zim which is missing in most other wikis is actually
 
 In the page content frame of the Zim interface, you can use the usual editing conventions to move around in the text, edit the text, and follow hyperlinks.
 
-TODO: Move keyboard shortcuts
-
-<div class="tip">Here are some keyboard shortcuts for moving around in the text:</div>
-
-| Key | Action |
-|--+--|
-| CTRL+Up, CTRL+Down | Previous, next paragraph |
-| CTRL+Left, CTRL+Right | Previous, next word |
-| Home, End | Start, end of line |
-| CTRL+Home, CTRL+End | Start, end of page |
-| SHIFT+[cursor movement] | Select text |
-| CTRL+C, CTRL+X, CTRL+V | Copy, cut, paste selected text |
-| Enter | Follow a hyperlink |
-| ALT+Left, ALT+Right | Previous, next page in navigation history |
-| ALT+PageUp, ALT+PageDown | Previous, next page in page index |
-| Enter | Insert a newline (twice for a paragraph) if cursor is not inside a hyperlink |
-| SHIFT+Enter | Always insert a newline (twice for a paragraph) |
-| CTRL+I, CTRL+B, CTRL+U, CTRL+K | *Italic*, **bold**, <u>highlight</u>, <s>strikethrough</s>
-| CTRL+L | Insert hyperlink |
-| CTRL+J | Jump to Page by name |
+<div class="tip">See [Keyboard Shortcuts](#keyboard-shortcuts) at the end of this guide for important editing keys.</div>
 
 ## Text Formatting
 
@@ -89,15 +70,17 @@ Internet/local network resource
 
 <div class="tip">Astute readers might notice that links to local files stored outside the Notebook **might not be portable** when you move or share your Notebook among more than one computer or user. A "Link" in Zim does not copy or cache anything; it is only a *reference* to a target.</div>
 
-TODO: See sectionon Interwiki links
+<div class="tip">See the [External Wikis and Services](#external-wikis-and-services) later in this guide for instructions for creating URL shortcuts like `wp?query` → `http://en.wikipedia.org/wiki/query` .</div>
 
-## Attachments
+## Attachments and Images
 
 Whereas Links only make a reference to another Page in the Notebook or some other resource, the Attach File command in the Tools menu make a fresh physical copy of the file you choose as a new file within the Notebook.
 
 As with Sub Pages, Attachments are stored in a folder in the Notebook with the same name as the parent Page of the Attachment.
 
 <div class="tip">Watch out for orphaned attachments. Zim does not automatically clean up attached files if you delete the last Link pointing to the Attachment. The easiest way to check for orphans on Page is to enable the Attachment Browser plugin; it creates a tab in the Index page that shows all attachments of the current Page, whether they have a link pointing to them or not.</div>
+
+By default, when you attach and image file, it is displayed inline instead of as a simple Link as other kinds of attachments are rendered. When you right-click on an inline image and click Edit Properties, you are given the opportunity to resize the image. (Changing the size here just changes the display size; it doesn't change the image file.)
 
 ## Find and Replace
 
