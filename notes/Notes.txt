@@ -26,4 +26,7 @@ Presentation
 * pictures:
 	* "good for making slides" -> recursion
 	* try to find icons and stuff that goes with slide content
-
+* FOSS for other things:
+	* LyX
+	* LibreOffice
+	* BlueGriffon HTML editor
