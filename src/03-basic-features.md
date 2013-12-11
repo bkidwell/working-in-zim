@@ -6,8 +6,6 @@ Notebooks in Zim are just folders that contain Zim pages, attachments, and folde
 
 You can create a Notebook using the "Add" command inside the "Open [Another] Notebook" dialog box by pointing to a new folder you just created or opening an existing folder. Any "`.txt`" files in that folder will be treated as Pages in the Notebook; everything else will be attachments.
 
-TODO: .zim folder and notebook.zim file.
-
 ## Page list
 
 By default, Zim shows an Index of all the pages in your notebook in a sidebar on the left side of the window.
@@ -86,7 +84,7 @@ By default, when you attach and image file, it is displayed inline instead of as
 
 Like any other good text editor, Zim has a command to Find (CTRL+F) or Replace (CTRL+H) text within the current Page. On a long page, the Find command is easiest way to quickly find a section you want to read or edit.
 
-TIP: The Replace command optionally supports the use of [[wp?Regular expression|regular expressions]] in the "Find what" and "Replace with" fields. If you don't know about regular expressions, you are missing out on a very powerful method for using formulas to manipulate lots of text at once.
+<div class="tip">The Replace command optionally supports the use of [regular expressions](http://en.wikipedia.org/wiki/Regular_expression) in the "Find what" and "Replace with" fields. If you don't know about regular expressions, you are missing out on a very powerful method for using formulas to manipulate lots of text at once.</div>
 
 ## Search
 

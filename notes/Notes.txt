@@ -31,3 +31,7 @@ Presentation
 	* LibreOffice
 	* BlueGriffon HTML editor
 * $PATH ?
+* install nginx, php-fpm, phpmyadmin, owncloud (using apps user)
+* video camera and batteries
+* check space needed for desktop recording
+* Iphone voice memo — mic is on top

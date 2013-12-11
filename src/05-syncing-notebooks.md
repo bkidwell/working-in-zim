@@ -36,7 +36,7 @@ ownCloud's desktop client automatically pushes new changes from your local machi
 
 One great side effect of storing your Notebooks in ownCloud is that now you can make small edits to edits to your Notebooks from any web browser! Zim stores Pages in plain text files, and if you navigate to one of those files in the ownCloud web interface, you get a text editor.
 
-![ownCloud web interface](syncing-owncloud-web.png)\ 
+![ownCloud web interface](img/syncing-owncloud-web.png)\ 
 
 There are also non-FOSS [IOS and Android clients](http://owncloud.org/install/) (priced at $1) that let you edit files on your phone or tablet.
 
@@ -88,3 +88,11 @@ Branch master set up to track remote branch master from brendan@fileserver:repos
 ~~~
 
 Use your normal Git workflows to make commits and push and pull changes between your work computers and the central repository.
+
+## Simple Backups
+
+Depending on what you store in your Notebooks, it's a good idea to do regular backups of your data as well. As you can see from the syncing instructions above, backing up notebooks is simple: Just archive or copy the top-level folder of the Notebook (the one with the `notebook.zim` file in it).
+
+To test your backup, restore it onto another computer or in another folder and open it in Zim or in a file manager and make sure all your data is there.
+
+Take extra care if you habitually make Links from Zim pages to data somewhere else on your computer that you didn't copy **into** the Notebook. You will have to back up that data separately!
